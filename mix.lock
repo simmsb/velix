@@ -1,5 +1,7 @@
-%{"erpcgen": {:hex, :erpcgen, "1.1.1", "e88c82f859a82da6f066bc8a8fe5ccb44402e7a52e82b71089ed84fd68a5c77d", [:rebar3], []},
-  "procket": {:hex, :procket, "0.9.3", "593e907645307bc854ce3532f3f9c07987d8dc9848180cd2ee408fd92b22cc1e", [:rebar3], []},
-  "quickrand": {:hex, :quickrand, "1.7.2", "e856f3c69fec00d1acca8e56cb452b650e838d3a9720811410f439121efafe59", [:rebar3], []},
-  "uuid": {:hex, :uuid_erl, "1.7.2", "d596c8dd01a4ae48b9d8d51832ccc8f8302bf67acd01336aec3fcfae6b9d2bc2", [:rebar3], [{:quickrand, "~> 1.7.2", [hex: :quickrand, optional: false]}]},
-  "verx": {:git, "git://github.com/sunchess/verx.git", "a254c8e32aeb0e1f96aa909ce5949552aeeda0a4", [branch: :master]}}
+%{
+  "erpcgen": {:hex, :erpcgen, "1.1.1", "e88c82f859a82da6f066bc8a8fe5ccb44402e7a52e82b71089ed84fd68a5c77d", [:rebar3], [], "hexpm", "b1bbe31c8a1cc9436dd163f884e5a1b73cff27e94484551fed002a992a41d7d8"},
+  "procket": {:hex, :procket, "0.9.3", "593e907645307bc854ce3532f3f9c07987d8dc9848180cd2ee408fd92b22cc1e", [:rebar3], [], "hexpm", "e9d06d13bda86c3b089ba002ecfb373a67b556745aa53473573ea05ef7572b4d"},
+  "quickrand": {:hex, :quickrand, "1.7.5", "e3086a153eb13a057fc19192d05e2d4c6bb2bdbb55746a699beae9847ac17ca8", [:rebar3], [], "hexpm", "6a1da81fe098c0dfcfb55c5e35c20be430128e88bbfa03d18fcf9e0ee8e342d7"},
+  "uuid": {:hex, :uuid_erl, "1.7.2", "d596c8dd01a4ae48b9d8d51832ccc8f8302bf67acd01336aec3fcfae6b9d2bc2", [:rebar3], [{:quickrand, "~> 1.7.2", [hex: :quickrand, repo: "hexpm", optional: false]}], "hexpm", "06a8e7a305c59cfa15dd8320ca521e46b81da4760fe239c8cc14b0474866d9e4"},
+  "verx": {:git, "https://github.com/sunchess/verx.git", "a254c8e32aeb0e1f96aa909ce5949552aeeda0a4", [branch: :master]},
+}
